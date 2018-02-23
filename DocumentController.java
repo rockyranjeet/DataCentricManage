@@ -58,6 +58,7 @@ public class DocumentController {
 			FileCopyUtils.copy(fdata, res.getOutputStream());
 		}catch(IOException e)
 		{
+this is doc
 			e.printStackTrace();
 		}
 	}
