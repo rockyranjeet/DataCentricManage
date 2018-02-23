@@ -154,6 +154,7 @@ public class CustomerController  {
 				String message=cust.getCustEmail()+"Password Reset";
 				if(flag) message += "Password Sent to Email";
 		        return "CustPwdReset";
+                                               this is heloo
 	}
 
 }
